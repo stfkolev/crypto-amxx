@@ -9,8 +9,8 @@
 #define MODULE_VERSION		"1.0"
 #define MODULE_AUTHOR		"iNvectus"
 #define MODULE_URL			"N/A"
-#define MODULE_LOGTAG		"cryptoamxx"
-#define MODULE_LIBRARY		"cryptoamxx"
+#define MODULE_LOGTAG		"crypto"
+#define MODULE_LIBRARY		"crypto"
 #define MODULE_LIBCLASS		""
 
 /*! Serves to not reload the module on mapchange */

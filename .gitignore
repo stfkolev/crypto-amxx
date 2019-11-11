@@ -1,5 +1,7 @@
 /Debug
+/Release
 /.vs
 /crypto/Debug
+/crypto/Release
 crypto.v12.suo
 crypto.sdf

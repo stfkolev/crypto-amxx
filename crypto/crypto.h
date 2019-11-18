@@ -3,6 +3,7 @@
 #include "crypto/sha256.hpp"
 #include "crypto/sha3.hpp"
 #include "crypto/crc32.hpp"
+#include "crypto/keccak.hpp"
 
 /*! AMXX Module */
 #include "sdk/amxxmodule.h"

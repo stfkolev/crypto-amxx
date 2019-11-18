@@ -74,6 +74,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="crypto\crc32.cpp" />
+    <ClCompile Include="crypto\keccak.cpp" />
     <ClCompile Include="crypto\md5.cpp" />
     <ClCompile Include="crypto.cpp" />
     <ClCompile Include="sdk\amxxmodule.cpp" />
@@ -83,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="crypto\crc32.hpp" />
+    <ClInclude Include="crypto\keccak.hpp" />
     <ClInclude Include="crypto\md5.hpp" />
     <ClInclude Include="crypto.h" />
     <ClInclude Include="sdk\amxxmodule.h" />

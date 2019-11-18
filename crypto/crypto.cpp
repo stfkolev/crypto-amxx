@@ -80,6 +80,17 @@ auto Crypto::Crypto_Hash(AMX* amx, cell* params) -> cell AMX_NATIVE_CALL {
 		MF_SetAmxString(amx, params[arg_result], hashedString.c_str(), hashedString.length());
 
 		return 0;
+	}
+	else if (checkHashType == "keccak") {
+		Keccak hash;
+		std::string iStringifiedText(string);
+
+		auto hashedString = hash(std::string(string));
+		char* test = &hashedString[0];
+
+		MF_SetAmxString(amx, params[arg_result], hashedString.c_str(), hashedString.length());
+
+		return 0;
 	} else {
 		std::string errMsg = "[" + std::string(MODULE_NAME) + "] Hash type '" + checkHashType + "' is not supported!\n";
 		char* error = &errMsg[0];
